@@ -21,7 +21,6 @@ function App() {
         <Route  path='/skills' element={<Skills/>}/>
         <Route  path='/resume' element={<Resume/>}/>
         <Route  path='/portfolio' element={<Portfolio/>}/>
-        <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
      </div>
