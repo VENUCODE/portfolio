@@ -41,7 +41,7 @@ const Navbar = () => {
     setNavToggle(!navToggle);
   };
   return (
-    <nav className=" sticky top-0 relative flex flex-row  bg-gradient-to-l from-blue-800  h-[80px] bg--400 justify-between   items-center px-[10px] py-2">
+    <nav className=" reltive top-0  flex flex-row  z-20 bg-gradient-to-l from-blue-800  h-[80px] bg--400 justify-between   items-center px-[10px] py-2">
       <div className="navbar-icon px-2">
         <Link to="/">
           <FaCode size={30} color="cyan" />

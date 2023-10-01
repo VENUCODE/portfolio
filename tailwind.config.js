@@ -7,12 +7,12 @@ module.exports = {
         "home-bg": "url('/public/home.jpg')",
       },
       screens: {
-        sm: "376px",
+        sm: "440px",
         // => @media (min-width: 576px) { ... }
 
-        md: "999px",
+        md: "640px",
         // => @media (min-width: 960px) { ... }
-
+        
         lg: "1290px",
         // => @media (min-width: 1440px) { ... }
         xl: "1440px",
